@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pharmacy_Health_Care</string>
+
+    <string-array name="usertype">
+
+        <item>user</item>
+        <item>admin</item>
+
+
+    </string-array>
+
+
+    <string name="alert">Failed to connect internet!</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

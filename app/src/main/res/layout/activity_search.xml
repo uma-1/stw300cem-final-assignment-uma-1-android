@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSearch"
+        android:layout_marginLeft="20dp"
+        android:hint="Search Name"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/btnSearchButton"
+            android:layout_toRightOf="@+id/etSearch"
+            android:layout_marginLeft="20dp"
+
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvItem"
+        android:layout_margin="20dp"
+
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
